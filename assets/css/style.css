@@ -255,21 +255,21 @@ section{padding:78px 0}.nav{min-height:74px}
 @media(max-width:560px){.offer-grid{grid-template-columns:1fr}.cta-actions,.cta-actions .btn{width:100%}.cta-section{padding-bottom:64px}}
 
 /* Background photo for the "Why technology matters" section (images/image1) */
-.benefits.has-bg{background-color:var(--navy);background-image:linear-gradient(rgba(7,51,74,.6),rgba(7,51,74,.76)),url("images/image1.jpg"),url("images/image1.jpeg"),url("images/image1.png"),url("images/image1.webp"),url("images/bg-home.svg");background-size:cover;background-position:center;background-repeat:no-repeat}
+.benefits.has-bg{background-color:var(--navy);background-image:linear-gradient(rgba(7,51,74,.6),rgba(7,51,74,.76)),url("../images/image1.jpg"),url("../images/image1.jpeg"),url("../images/image1.png"),url("../images/image1.webp"),url("../images/bg-home.svg");background-size:cover;background-position:center;background-repeat:no-repeat}
 .benefits.has-bg .benefit-card{background:rgba(7,51,74,.55);backdrop-filter:blur(6px)}
 
 /* Service page backgrounds. Add your own photos named software.jpg, maintenance.jpg, networking.jpg, cybersecurity.jpg or consulting.jpg in /images to replace the built-in artwork. */
 .benefits.has-bg2{background-color:var(--navy);background-size:cover;background-position:center;background-repeat:no-repeat}
 .benefits.has-bg2 .benefit-card{background:rgba(7,51,74,.62);backdrop-filter:blur(6px)}
-.benefits.bg-software{background-image:linear-gradient(rgba(7,51,74,.55),rgba(7,51,74,.72)),url("images/software.jpg"),url("images/software.jpeg"),url("images/software.png"),url("images/software.webp"),url("images/bg-software.svg")}
-.benefits.bg-maintenance{background-image:linear-gradient(rgba(7,51,74,.55),rgba(7,51,74,.72)),url("images/maintenance.jpg"),url("images/maintenance.jpeg"),url("images/maintenance.png"),url("images/maintenance.webp"),url("images/bg-maintenance.svg")}
-.benefits.bg-networking{background-image:linear-gradient(rgba(7,51,74,.55),rgba(7,51,74,.72)),url("images/networking.jpg"),url("images/networking.jpeg"),url("images/networking.png"),url("images/networking.webp"),url("images/bg-networking.svg")}
-.benefits.bg-cybersecurity{background-image:linear-gradient(rgba(7,51,74,.55),rgba(7,51,74,.72)),url("images/cybersecurity.jpg"),url("images/cybersecurity.jpeg"),url("images/cybersecurity.png"),url("images/cybersecurity.webp"),url("images/bg-cybersecurity.svg")}
-.benefits.bg-consulting{background-image:linear-gradient(rgba(7,51,74,.55),rgba(7,51,74,.72)),url("images/consulting.jpg"),url("images/consulting.jpeg"),url("images/consulting.png"),url("images/consulting.webp"),url("images/bg-consulting.svg")}
+.benefits.bg-software{background-image:linear-gradient(rgba(7,51,74,.55),rgba(7,51,74,.72)),url("../images/software.jpg"),url("../images/software.jpeg"),url("../images/software.png"),url("../images/software.webp"),url("../images/bg-software.svg")}
+.benefits.bg-maintenance{background-image:linear-gradient(rgba(7,51,74,.55),rgba(7,51,74,.72)),url("../images/maintenance.jpg"),url("../images/maintenance.jpeg"),url("../images/maintenance.png"),url("../images/maintenance.webp"),url("../images/bg-maintenance.svg")}
+.benefits.bg-networking{background-image:linear-gradient(rgba(7,51,74,.55),rgba(7,51,74,.72)),url("../images/networking.jpg"),url("../images/networking.jpeg"),url("../images/networking.png"),url("../images/networking.webp"),url("../images/bg-networking.svg")}
+.benefits.bg-cybersecurity{background-image:linear-gradient(rgba(7,51,74,.55),rgba(7,51,74,.72)),url("../images/cybersecurity.jpg"),url("../images/cybersecurity.jpeg"),url("../images/cybersecurity.png"),url("../images/cybersecurity.webp"),url("../images/bg-cybersecurity.svg")}
+.benefits.bg-consulting{background-image:linear-gradient(rgba(7,51,74,.55),rgba(7,51,74,.72)),url("../images/consulting.jpg"),url("../images/consulting.jpeg"),url("../images/consulting.png"),url("../images/consulting.webp"),url("../images/bg-consulting.svg")}
 
 /* Home hero background. Add your own photo as images/hero.jpg (or .png/.webp) to replace the built-in artwork. */
-.hero.has-bg{background-color:#f5fafc;background-image:linear-gradient(90deg,rgba(255,255,255,.93) 0%,rgba(255,255,255,.82) 45%,rgba(255,255,255,.4) 100%),url("images/hero.jpg"),url("images/hero.jpeg"),url("images/hero.png"),url("images/hero.webp"),url("images/bg-hero.svg");background-size:cover;background-position:center;background-repeat:no-repeat}
-@media(max-width:850px){.hero.has-bg{background-image:linear-gradient(rgba(255,255,255,.9),rgba(255,255,255,.8)),url("images/hero.jpg"),url("images/hero.jpeg"),url("images/hero.png"),url("images/hero.webp"),url("images/bg-hero.svg")}}
+.hero.has-bg{background-color:#f5fafc;background-image:linear-gradient(90deg,rgba(255,255,255,.93) 0%,rgba(255,255,255,.82) 45%,rgba(255,255,255,.4) 100%),url("../images/hero.jpg"),url("../images/hero.jpeg"),url("../images/hero.png"),url("../images/hero.webp"),url("../images/bg-hero.svg");background-size:cover;background-position:center;background-repeat:no-repeat}
+@media(max-width:850px){.hero.has-bg{background-image:linear-gradient(rgba(255,255,255,.9),rgba(255,255,255,.8)),url("../images/hero.jpg"),url("../images/hero.jpeg"),url("../images/hero.png"),url("../images/hero.webp"),url("../images/bg-hero.svg")}}
 
 /* FAQ section inside the Contact page */
 .faq-split{display:grid;grid-template-columns:.85fr 1.15fr;gap:56px;align-items:start}
